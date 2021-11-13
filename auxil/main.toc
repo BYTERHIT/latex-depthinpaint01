@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}利用优化实现颜色修复}{3}{}%
+\contentsline {subsection}{\numberline {1.1}局部颜色相似性假设}{3}{}%
+\contentsline {subsection}{\numberline {1.2}基于局部颜色相似性的颜色修复模型}{3}{}%
+\contentsline {subsection}{\numberline {1.3}模型改进}{4}{}%
+\contentsline {section}{\numberline {2}基于tgv的深度数据恢复}{6}{}%
+\contentsline {subsection}{\numberline {2.1}ITGV}{6}{}%
+\contentsline {subsection}{\numberline {2.2}STGV}{7}{}%
+\contentsline {subsection}{\numberline {2.3}TGV收敛问题}{8}{}%
+\contentsline {section}{\numberline {3}TGV和colorize结合}{10}{}%
+\contentsline {subsection}{\numberline {3.1}利用COLORIZE作为保真项}{10}{}%
+\contentsline {subsection}{\numberline {3.2}利用COLORIZE优化后的结果作为初始值进行STGV优化}{12}{}%
+\contentsline {subsection}{\numberline {3.3}接下来的工作}{12}{}%

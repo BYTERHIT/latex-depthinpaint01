@@ -1,0 +1,92 @@
+\relax 
+\citation{levin2004}
+\citation{levin2004}
+\@writefile{toc}{\contentsline {section}{\numberline {1}利用优化实现颜色修复}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}局部颜色相似性假设}{3}{}\protected@file@percent }
+\newlabel{con:localSim1}{{1}{3}}
+\newlabel{con:localSim2}{{2}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}基于局部颜色相似性的颜色修复模型}{3}{}\protected@file@percent }
+\newlabel{con:colorFidelity}{{3}{3}}
+\newlabel{con:JuMtx}{{4}{3}}
+\newlabel{con:W}{{5}{3}}
+\citation{flyfj2015}
+\citation{levin2004}
+\newlabel{con:lsJu}{{6}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}模型改进}{4}{}\protected@file@percent }
+\newlabel{con:JuMtxAdvanced}{{7}{4}}
+\newlabel{con:WAdvanced}{{8}{4}}
+\citation{Ranftl2012}
+\citation{Nagel1986}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \small 只使用未知区域局部约束}}{5}{}\protected@file@percent }
+\newlabel{fig:colorize:onlyz}{{1}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \small 使用了全局约束项}}{5}{}\protected@file@percent }
+\newlabel{fig:colorize:allregion}{{2}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \small 优化效果比较差的区域,图中红框}}{5}{}\protected@file@percent }
+\newlabel{fig:colorize:badregion}{{3}{5}}
+\newlabel{con:Wseg}{{10}{5}}
+\citation{Ferstl2013}
+\citation{Drozdov2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \small 使用全局约束但是没有利用语义分割}}{6}{}\protected@file@percent }
+\newlabel{fig:colorize:noseg}{{4}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \small 利用语义分割优化全局约束}}{6}{}\protected@file@percent }
+\newlabel{fig:colorize:seg}{{5}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}基于tgv的深度数据恢复}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}ITGV}{6}{}\protected@file@percent }
+\newlabel{con:itgv}{{11}{6}}
+\newlabel{con:nagel-EnkelmannOp}{{12}{6}}
+\newlabel{con:Itgv4DepthUpsample}{{13}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}STGV}{7}{}\protected@file@percent }
+\newlabel{con:Dadvanced}{{14}{7}}
+\newlabel{con:edge}{{15}{7}}
+\newlabel{con:stgvLossFun}{{16}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces ITGV深度修复效果}}{7}{}\protected@file@percent }
+\newlabel{fig:itgv}{{6}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces STGV效果(图像边缘经过手动调整)}}{7}{}\protected@file@percent }
+\newlabel{fig:stgv}{{7}{7}}
+\citation{Chambolle2011}
+\citation{Diagonal_preconditioning}
+\citation{Chambolle2011}
+\citation{Diagonal_preconditioning}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \small 错误的超像素结果}}{8}{}\protected@file@percent }
+\newlabel{fig:wrongSuperPix}{{8}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \small 错误超像素产生的深度修复效果}}{8}{}\protected@file@percent }
+\newlabel{fig:wrongspDepInpaint}{{9}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}TGV收敛问题}{8}{}\protected@file@percent }
+\newlabel{con:pd-init}{{17}{8}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces pdAlg1}}{9}{}\protected@file@percent }
+\newlabel{alg:pdAlg1}{{1}{9}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces pdPrecondition}}{9}{}\protected@file@percent }
+\newlabel{alg:pdPrecondition}{{2}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}TGV和colorize结合}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}利用COLORIZE作为保真项}{10}{}\protected@file@percent }
+\newlabel{con:cstgv}{{21}{10}}
+\newlabel{con:pd-Ju}{{22}{10}}
+\newlabel{con:K}{{23}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \small STGV原始效果}}{11}{}\protected@file@percent }
+\newlabel{fig:stgv_54740}{{10}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \small colorize保真项CSTGV优化效果}}{11}{}\protected@file@percent }
+\newlabel{fig:cstgv_54740}{{11}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \small STGV \ $ \lambda =1e-4,$耗时4051.26s}}{11}{}\protected@file@percent }
+\newlabel{fig:stgv_1e-4}{{12}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces \small CSTGV\ $\lambda =1e-4,$耗时5253s}}{11}{}\protected@file@percent }
+\newlabel{fig:cstgv_1e-4}{{13}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}利用COLORIZE优化后的结果作为初始值进行STGV优化}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces \small 对colorize优化后的图像进行tgv平滑操作}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {colorize no using seg}}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {colorize using seg}}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {colorize no seg then stgv}}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {colorize using seg then stgv}}}{12}{}\protected@file@percent }
+\newlabel{fig:colorize_tgv}{{14}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}接下来的工作}{12}{}\protected@file@percent }
+\bibdata{references}
+\bibcite{levin2004}{{1}{}{{}}{{}}}
+\bibcite{flyfj2015}{{2}{}{{}}{{}}}
+\bibcite{Ranftl2012}{{3}{}{{}}{{}}}
+\bibcite{Nagel1986}{{4}{}{{}}{{}}}
+\bibcite{Ferstl2013}{{5}{}{{}}{{}}}
+\bibcite{Drozdov2016}{{6}{}{{}}{{}}}
+\bibcite{Chambolle2011}{{7}{}{{}}{{}}}
+\bibcite{Diagonal_preconditioning}{{8}{}{{}}{{}}}
+\bibstyle{unsrt}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{14}

@@ -1,0 +1,56 @@
+\begin{thebibliography}{1}
+
+\bibitem{levin2004}
+Anat Levin, Dani Lischinski, and Yair Weiss.
+\newblock Colorization using optimization.
+\newblock {\em ACM Trans. Graph.}, 23(3):689–694, August 2004.
+
+\bibitem{flyfj2015}
+flyfj.
+\newblock Visiontoolbox.
+\newblock \url
+  {https://github.com/flyfj/VisionToolbox/blob/master/3D/DepthEnhancer/colorization/fill_depth_colorization.m/}
+  Accessed November 12, 2021.
+
+\bibitem{Ranftl2012}
+René Ranftl, Stefan Gehrig, Thomas Pock, and Horst Bischof.
+\newblock Pushing the limits of stereo using variational stereo estimation.
+\newblock In {\em 2012 IEEE Intelligent Vehicles Symposium}, pages 401--407,
+  2012.
+
+\bibitem{Nagel1986}
+Hans-Hellmut Nagel and Wilfried Enkelmann.
+\newblock An investigation of smoothness constraints for the estimation of
+  displacement vector fields from image sequences.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  PAMI-8(5):565--593, 1986.
+
+\bibitem{Ferstl2013}
+David Ferstl, Christian Reinbacher, Rene Ranftl, Matthias Ruether, and Horst
+  Bischof.
+\newblock Image guided depth upsampling using anisotropic total generalized
+  variation.
+\newblock In {\em 2013 IEEE International Conference on Computer Vision}, pages
+  993--1000, 2013.
+
+\bibitem{Drozdov2016}
+Gilad Drozdov, Yevgengy Shapiro, and Guy Gilboa.
+\newblock Robust recovery of heavily degraded depth measurements.
+\newblock In {\em 2016 Fourth International Conference on 3D Vision (3DV)},
+  pages 56--65, 2016.
+
+\bibitem{Chambolle2011}
+Antonin Chambolle and Thomas Pock.
+\newblock A first-order primal-dual algorithm for convex problems
+  with applications to imaging.
+\newblock {\em Journal of Mathematical Imaging and Vision}, 40(1):120--145, May
+  2011.
+
+\bibitem{Diagonal_preconditioning}
+Thomas Pock and Antonin Chambolle.
+\newblock Diagonal preconditioning for first order primal-dual algorithms in
+  convex optimization.
+\newblock In {\em 2011 International Conference on Computer Vision}, pages
+  1762--1769, 2011.
+
+\end{thebibliography}
