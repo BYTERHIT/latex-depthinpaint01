@@ -1,0 +1,58 @@
+\begin{thebibliography}{1}
+
+\bibitem{yeOptics}
+叶玉堂.
+\newblock {\em 光学教程（第二版）}.
+
+\bibitem{buat2020active}
+Benjamin Buat, Pauline Trouv{\'e}-Peloux, Fr{\'e}d{\'e}ric Champagnat, Guy
+  Le~Besnerais, and Thierry Simon.
+\newblock Active chromatic depth from defocus for industrial inspection.
+\newblock In {\em Unconventional Optical Imaging II}, volume 11351, page
+  113510Z. International Society for Optics and Photonics, 2020.
+
+\bibitem{Chambolle2011}
+Antonin Chambolle and Thomas Pock.
+\newblock A first-order primal-dual algorithm for convex problems
+  with applications to imaging.
+\newblock {\em Journal of Mathematical Imaging and Vision}, 40(1):120--145, May
+  2011.
+
+\bibitem{Ferstl2013}
+David Ferstl, Christian Reinbacher, Rene Ranftl, Matthias Ruether, and Horst
+  Bischof.
+\newblock Image guided depth upsampling using anisotropic total generalized
+  variation.
+\newblock In {\em 2013 IEEE International Conference on Computer Vision}, pages
+  993--1000, 2013.
+
+\bibitem{ishihara2021depth}
+Shin Ishihara, Antonin Sulc, and Imari Sato.
+\newblock Depth estimation using spectrally varying defocus blur.
+\newblock 2021.
+
+\bibitem{levin2007image}
+Anat Levin, Rob Fergus, Fr{\'e}do Durand, and William~T Freeman.
+\newblock Image and depth from a conventional camera with a coded aperture.
+\newblock {\em ACM transactions on graphics (TOG)}, 26(3):70--es, 2007.
+
+\bibitem{Diagonal_preconditioning}
+Thomas Pock and Antonin Chambolle.
+\newblock Diagonal preconditioning for first order primal-dual algorithms in
+  convex optimization.
+\newblock In {\em 2011 International Conference on Computer Vision}, pages
+  1762--1769, 2011.
+
+\bibitem{rajagopalan1999mrf}
+Ambasamudram~N Rajagopalan and Subhasis Chaudhuri.
+\newblock An mrf model-based approach to simultaneous recovery of depth and
+  restoration from defocused images.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  21(7):577--589, 1999.
+
+\bibitem{saxena2005learning}
+Ashutosh Saxena, Sung~H Chung, Andrew~Y Ng, et~al.
+\newblock Learning depth from single monocular images.
+\newblock In {\em NIPS}, volume~18, pages 1--8, 2005.
+
+\end{thebibliography}
