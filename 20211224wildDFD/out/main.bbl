@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{2014Multiscale}
+Pablo Arbelaez, Jordi Pont-Tuset, Jon Barron, Ferran Marques, and Jitendra
+  Malik.
+\newblock Multiscale combinatorial grouping.
+\newblock In {\em 2014 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, 2014.
+
+\bibitem{2012Robust}
+F.~Sroubek and P.~Milanfar.
+\newblock Robust multichannel blind deconvolution via fast alternating
+  minimization.
+\newblock {\em IEEE Transactions on Image Processing}, 21(4):1687--1700, 2012.
+
+\bibitem{subbarao1991spatial}
+Muralidhara Subbarao.
+\newblock Spatial-domain convolution/deconvolution transform.
+\newblock {\em Technique Report No. 91.07. 03}, 1991.
+
+\bibitem{2017Depth}
+H.~Tang, S.~Cohen, B.~Price, S.~Schiller, and K.~N. Kutulakos.
+\newblock Depth from defocus in the wild.
+\newblock In {\em 2017 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, 2017.
+
+\bibitem{2006Depth}
+T.~Xian and M.~Subbarao.
+\newblock Depth-from-defocus: blur equalization technique.
+\newblock {\em Proceedings of SPIE - The International Society for Optical
+  Engineering}, pages 63820E--63820E--10, 2006.
+
+\end{thebibliography}
